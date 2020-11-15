@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine">
+      <UniqueIdentifier>{EEA51C00-DA73-1006-C307-812CAF74EC6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Audio">
+      <UniqueIdentifier>{6F6E65F1-5BFD-EEBA-041C-03B6F089FF60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Events">
+      <UniqueIdentifier>{129A7A27-7E06-3622-47FA-CD7FB325588A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Input">
+      <UniqueIdentifier>{6D90F2F1-591F-7CBB-023E-90B6EEAB8C61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer">
+      <UniqueIdentifier>{547584E7-C0AC-CC7E-C9B6-30A2356DF377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Apis">
+      <UniqueIdentifier>{90F8FEEC-7CB3-EE98-256B-67E311053929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Apis\OpenGL">
+      <UniqueIdentifier>{C45FDC30-3019-47DB-B978-61B52531FD4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Apis\OpenGL\Mesh">
+      <UniqueIdentifier>{00502181-ECCC-14C4-154A-15D80126B157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Apis\OpenGL\Shader">
+      <UniqueIdentifier>{EAAAE05C-D612-A72A-3F7E-BB402B05BE16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Apis\Vulkan">
+      <UniqueIdentifier>{10C48E41-7C7D-F9EB-05DD-13C67195AF5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Apis\Vulkan\Mesh">
+      <UniqueIdentifier>{CC433AC6-B8C0-2D09-E13D-2E1DCD19CA9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Apis\Vulkan\Shader">
+      <UniqueIdentifier>{B6C1054C-A229-CC19-0B95-E02FF71BE305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Mesh">
+      <UniqueIdentifier>{905F05ED-7C1A-F598-25D2-6DE3116C3F29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Mesh\Generators">
+      <UniqueIdentifier>{B9F688FC-2586-4AE7-2E82-2BFF9A9085F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Renderer\Shader">
+      <UniqueIdentifier>{7ADE0652-6604-D1B8-4F4A-56843B0FF684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Scene">
+      <UniqueIdentifier>{8B4DA1F2-77DC-2ABC-20FB-3EB70C693B62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Utility">
+      <UniqueIdentifier>{31720EE2-1D6C-3734-06D9-CD44F2719DA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Utility\Config">
+      <UniqueIdentifier>{166C0596-8284-ECBF-4B31-7C59B7088159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Window">
+      <UniqueIdentifier>{15FB9050-8167-4C4B-4A5B-E4A8B6866EB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine">
+      <UniqueIdentifier>{12A1320E-FE58-745B-6760-4DB753370F4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Audio">
+      <UniqueIdentifier>{9334FCA7-7F2D-1BFA-A85F-007F94B7FA05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Events">
+      <UniqueIdentifier>{B624EAB0-223B-E846-6BB2-7368D707B9CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Input">
+      <UniqueIdentifier>{915689A8-7D4F-A8FA-A681-8D7F92D98706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer">
+      <UniqueIdentifier>{F838018B-649A-DE98-ED07-254B59681558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Apis">
+      <UniqueIdentifier>{B4A27B7A-A0C7-CAFA-C912-B08AB596C918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Apis\OpenGL">
+      <UniqueIdentifier>{68B9772B-D49C-866B-DD9F-B4A749024DBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Apis\OpenGL\Mesh">
+      <UniqueIdentifier>{24504A6E-1037-0C66-B987-7283A54D85CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Apis\OpenGL\Shader">
+      <UniqueIdentifier>{0E444A38-FA95-2128-E3B4-5E38CFA53A11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Apis\Vulkan">
+      <UniqueIdentifier>{B41D2A3C-2001-397C-2904-67B89566FFCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Apis\Vulkan\Mesh">
+      <UniqueIdentifier>{F04363B3-DC2A-25AB-857B-8BC871419E11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Apis\Vulkan\Shader">
+      <UniqueIdentifier>{DA5A6F27-C6AC-4617-AFCB-83279BBC5F00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Mesh">
+      <UniqueIdentifier>{B409827A-A02E-D1FA-C979-B68AB5FDCF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Mesh\Generators">
+      <UniqueIdentifier>{5D82C022-C93B-2BCD-529B-45A7BE53E13C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Renderer\Shader">
+      <UniqueIdentifier>{9EA15631-8AB1-0202-F36A-6720DF99F19A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Scene">
+      <UniqueIdentifier>{AF1338A9-9B0C-57FB-C43E-3C80B0963607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Utility">
+      <UniqueIdentifier>{55516F99-4135-30EF-AA95-2A4296981A71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Utility\Config">
+      <UniqueIdentifier>{BA5A17D3-261D-4B5D-6FCD-D9E9DBCE233B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Window">
+      <UniqueIdentifier>{B98500DA-259C-FE6F-6E13-8A91DA68CFF7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Engine\Application.h">
+      <Filter>include\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Audio\ALHelpers.h">
+      <Filter>include\Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Audio\Audio.h">
+      <Filter>include\Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Audio\AudioCore.h">
+      <Filter>include\Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Events\Event.h">
+      <Filter>include\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Events\EventHandler.h">
+      <Filter>include\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Events\GamepadEvent.h">
+      <Filter>include\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Events\JoystickEvent.h">
+      <Filter>include\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Events\KeyboardEvent.h">
+      <Filter>include\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Events\MouseEvent.h">
+      <Filter>include\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Events\WindowEvent.h">
+      <Filter>include\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Input\AxisInputBinding.h">
+      <Filter>include\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Input\ButtonInputBinding.h">
+      <Filter>include\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Input\IInputBinding.h">
+      <Filter>include\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Input\InputGroup.h">
+      <Filter>include\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Input\InputHandler.h">
+      <Filter>include\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Input\JoystickHandler.h">
+      <Filter>include\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\OpenGL\Mesh\OpenGLMeshData.h">
+      <Filter>include\Engine\Renderer\Apis\OpenGL\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\OpenGL\Mesh\OpenGLSkeletalMeshData.h">
+      <Filter>include\Engine\Renderer\Apis\OpenGL\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\OpenGL\Mesh\OpenGLStaticMeshData.h">
+      <Filter>include\Engine\Renderer\Apis\OpenGL\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\OpenGL\Mesh\OpenGLStaticVoxelMeshData.h">
+      <Filter>include\Engine\Renderer\Apis\OpenGL\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\OpenGL\OpenGLDebugRenderer.h">
+      <Filter>include\Engine\Renderer\Apis\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\OpenGL\OpenGLRenderer.h">
+      <Filter>include\Engine\Renderer\Apis\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\OpenGL\Shader\OpenGLMaterialData.h">
+      <Filter>include\Engine\Renderer\Apis\OpenGL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\OpenGL\Shader\OpenGLShaderData.h">
+      <Filter>include\Engine\Renderer\Apis\OpenGL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\Vulkan\Mesh\VulkanMeshData.h">
+      <Filter>include\Engine\Renderer\Apis\Vulkan\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\Vulkan\Mesh\VulkanSkeletalMeshData.h">
+      <Filter>include\Engine\Renderer\Apis\Vulkan\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\Vulkan\Mesh\VulkanStaticMeshData.h">
+      <Filter>include\Engine\Renderer\Apis\Vulkan\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\Vulkan\Mesh\VulkanStaticVoxelMeshData.h">
+      <Filter>include\Engine\Renderer\Apis\Vulkan\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\Vulkan\Shader\VulkanMaterialData.h">
+      <Filter>include\Engine\Renderer\Apis\Vulkan\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\Vulkan\Shader\VulkanShaderData.h">
+      <Filter>include\Engine\Renderer\Apis\Vulkan\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\Vulkan\VulkanDebugRenderer.h">
+      <Filter>include\Engine\Renderer\Apis\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Apis\Vulkan\VulkanRenderer.h">
+      <Filter>include\Engine\Renderer\Apis\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\DebugRenderer.h">
+      <Filter>include\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Mesh\Generators\Icosphere.h">
+      <Filter>include\Engine\Renderer\Mesh\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Mesh\Mesh.h">
+      <Filter>include\Engine\Renderer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Mesh\SkeletalMesh.h">
+      <Filter>include\Engine\Renderer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Mesh\StaticMesh.h">
+      <Filter>include\Engine\Renderer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Mesh\StaticVoxelMesh.h">
+      <Filter>include\Engine\Renderer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Renderer.h">
+      <Filter>include\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Shader\Material.h">
+      <Filter>include\Engine\Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Shader\Shader.h">
+      <Filter>include\Engine\Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Renderer\Shader\Uniform.h">
+      <Filter>include\Engine\Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Scene\Camera.h">
+      <Filter>include\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Scene\Entity.h">
+      <Filter>include\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Scene\Scene.h">
+      <Filter>include\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Utility\Config\ConfigFile.h">
+      <Filter>include\Engine\Utility\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Utility\Config\ConfigManager.h">
+      <Filter>include\Engine\Utility\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Utility\Config\ConfigSection.h">
+      <Filter>include\Engine\Utility\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Utility\Core.h">
+      <Filter>include\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Utility\Logger.h">
+      <Filter>include\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Engine\Window\Window.h">
+      <Filter>include\Engine\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Engine\Application.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Audio\ALHelpers.cpp">
+      <Filter>src\Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Audio\Audio.cpp">
+      <Filter>src\Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Audio\AudioCore.cpp">
+      <Filter>src\Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Audio\AudioImplementations.cpp">
+      <Filter>src\Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Events\EventHandler.cpp">
+      <Filter>src\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Input\AxisInputBinding.cpp">
+      <Filter>src\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Input\ButtonInputBinding.cpp">
+      <Filter>src\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Input\IInputBinding.cpp">
+      <Filter>src\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Input\InputGroup.cpp">
+      <Filter>src\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Input\InputHandler.cpp">
+      <Filter>src\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Input\JoystickHandler.cpp">
+      <Filter>src\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\OpenGL\Mesh\OpenGLMeshData.cpp">
+      <Filter>src\Engine\Renderer\Apis\OpenGL\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\OpenGL\Mesh\OpenGLSkeletalMeshData.cpp">
+      <Filter>src\Engine\Renderer\Apis\OpenGL\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\OpenGL\Mesh\OpenGLStaticMeshData.cpp">
+      <Filter>src\Engine\Renderer\Apis\OpenGL\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\OpenGL\Mesh\OpenGLStaticVoxelMeshData.cpp">
+      <Filter>src\Engine\Renderer\Apis\OpenGL\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\OpenGL\OpenGLDebugRenderer.cpp">
+      <Filter>src\Engine\Renderer\Apis\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\OpenGL\OpenGLRenderer.cpp">
+      <Filter>src\Engine\Renderer\Apis\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\OpenGL\Shader\OpenGLMaterialData.cpp">
+      <Filter>src\Engine\Renderer\Apis\OpenGL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\OpenGL\Shader\OpenGLShaderData.cpp">
+      <Filter>src\Engine\Renderer\Apis\OpenGL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\Vulkan\Mesh\VulkanMeshData.cpp">
+      <Filter>src\Engine\Renderer\Apis\Vulkan\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\Vulkan\Mesh\VulkanSkeletalMeshData.cpp">
+      <Filter>src\Engine\Renderer\Apis\Vulkan\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\Vulkan\Mesh\VulkanStaticMeshData.cpp">
+      <Filter>src\Engine\Renderer\Apis\Vulkan\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\Vulkan\Mesh\VulkanStaticVoxelMeshData.cpp">
+      <Filter>src\Engine\Renderer\Apis\Vulkan\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\Vulkan\Shader\VulkanMaterialData.cpp">
+      <Filter>src\Engine\Renderer\Apis\Vulkan\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\Vulkan\Shader\VulkanShaderData.cpp">
+      <Filter>src\Engine\Renderer\Apis\Vulkan\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\Vulkan\VulkanDebugRenderer.cpp">
+      <Filter>src\Engine\Renderer\Apis\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Apis\Vulkan\VulkanRenderer.cpp">
+      <Filter>src\Engine\Renderer\Apis\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\DebugRenderer.cpp">
+      <Filter>src\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Mesh\Generators\Icosphere.cpp">
+      <Filter>src\Engine\Renderer\Mesh\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Mesh\Mesh.cpp">
+      <Filter>src\Engine\Renderer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Mesh\SkeletalMesh.cpp">
+      <Filter>src\Engine\Renderer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Mesh\StaticMesh.cpp">
+      <Filter>src\Engine\Renderer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Mesh\StaticVoxelMesh.cpp">
+      <Filter>src\Engine\Renderer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Renderer.cpp">
+      <Filter>src\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Shader\Material.cpp">
+      <Filter>src\Engine\Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer\Shader\Shader.cpp">
+      <Filter>src\Engine\Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Scene\Camera.cpp">
+      <Filter>src\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Scene\Entity.cpp">
+      <Filter>src\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Scene\Scene.cpp">
+      <Filter>src\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Utility\Config\ConfigFile.cpp">
+      <Filter>src\Engine\Utility\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Utility\Config\ConfigManager.cpp">
+      <Filter>src\Engine\Utility\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Utility\Config\ConfigSection.cpp">
+      <Filter>src\Engine\Utility\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Utility\Logger.cpp">
+      <Filter>src\Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Window\Window.cpp">
+      <Filter>src\Engine\Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
